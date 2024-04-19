@@ -8,7 +8,7 @@ function Button({ text }: { text?: string }) {
       type="button"
       onClick={handleClick}
     >
-      {text ?? 'click me'}
+      {text ?? 'Button From React'}
     </button>
   )
 }
